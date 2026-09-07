@@ -1,0 +1,125 @@
+2026-09-07T15:39:11.5526883Z ^[[36;1m(grep -h CONFIG_ARM64_VA_BITS /boot/config-$(uname -r) 2>/dev/null || true)^[[0m
+2026-09-07T15:39:11.5527312Z ^[[36;1mcat /proc/sys/vm/legacy_va_layout^[[0m
+2026-09-07T15:39:11.5632234Z Linux runnervmejwal 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+2026-09-07T15:39:12.8124082Z ### Linux x86_64, openjdk version "17.0.20.1" 2026-08-18
+2026-09-07T15:39:12.8190642Z    launcher (file): ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.18, not stripped
+2026-09-07T15:39:12.8192497Z --- default
+2026-09-07T15:39:18.1985809Z == probe: Linux x86_64 | OpenJDK 64-Bit Server VM 17.0.20.1+1 (?) | stack rlimit limited | LD_PRELOAD=- | DYLD_INSERT_LIBRARIES=-
+2026-09-07T15:39:18.1987085Z    launcher: PIE (ET_DYN)
+2026-09-07T15:39:18.1988006Z    brk heap at 0x55eb7ea81000, this agent mapped at 0x7fa08b3603d3, a stack var at 0x7fa089bfc0b0
+2026-09-07T15:39:18.1988986Z    ids: 202016 from 17 threads, min 0x55eb7e7ab7a0 max 0x7fa0842266c8
+2026-09-07T15:39:18.1989635Z    low 3 bits: 0:202016 1:0 2:0 3:0 4:0 5:0 6:0 7:0
+2026-09-07T15:39:18.1990238Z    bit47 set: 0  bit46 set: 202016  bit40 set: 202016
+2026-09-07T15:39:18.1991068Z    regions: brk-heap 11225, anon-mmap 190791, file 0, stack 0, other 0, no-mapping 0
+2026-09-07T15:39:18.1991926Z    thread 2449: 11248 ids, brk 8 anon 11240 other 0, bit47 set 0, first 0x55eb7e7ab7a0 last 0x7fa0842266c8
+2026-09-07T15:39:18.1993202Z    thread 2472: 10764 ids, brk 194 anon 10570 other 0, bit47 set 0, first 0x55eb7e7be998 last 0x7f9fc0279888
+2026-09-07T15:39:18.1994554Z    thread 2473: 12226 ids, brk 215 anon 12011 other 0, bit47 set 0, first 0x55eb7e7c2e78 last 0x7f9fc0278db0
+2026-09-07T15:39:18.1995714Z    thread 2474: 12003 ids, brk 229 anon 11774 other 0, bit47 set 0, first 0x55eb7e7be9a8 last 0x7f9fc0276238
+2026-09-07T15:39:18.1996855Z    thread 2475: 12124 ids, brk 189 anon 11935 other 0, bit47 set 0, first 0x55eb7e7beeb8 last 0x7fa084219130
+2026-09-07T15:39:18.1998378Z    thread 2476: 12609 ids, brk 165 anon 12444 other 0, bit47 set 0, first 0x55eb7e7beec8 last 0x7fa0841e75b8
+2026-09-07T15:39:18.1999517Z    thread 2477: 11963 ids, brk 261 anon 11702 other 0, bit47 set 0, first 0x55eb7e7bdb78 last 0x7f9fc0271138
+2026-09-07T15:39:18.2000597Z    thread 2478: 11796 ids, brk 194 anon 11602 other 0, bit47 set 0, first 0x55eb7e7bdf38 last 0x7f9fc0253ef8
+2026-09-07T15:39:18.2001724Z    thread 2479: 12001 ids, brk 255 anon 11746 other 0, bit47 set 0, first 0x55eb7e7bf860 last 0x7f9fc02788d8
+2026-09-07T15:39:18.2002851Z    thread 2480: 10930 ids, brk 8038 anon 2892 other 0, bit47 set 0, first 0x55eb7e7bdb40 last 0x7f9fc0278da8
+2026-09-07T15:39:18.2003953Z    thread 2481: 11622 ids, brk 216 anon 11406 other 0, bit47 set 0, first 0x55eb7e7c1800 last 0x7fa0841bda50
+2026-09-07T15:39:18.2005287Z    thread 2482: 13882 ids, brk 224 anon 13658 other 0, bit47 set 0, first 0x55eb7e7bdf20 last 0x7f9fc0253788
+2026-09-07T15:39:18.2006309Z --- ulimit -s unlimited (legacy mmap layout)
+2026-09-07T15:39:20.2245981Z == probe: Linux x86_64 | OpenJDK 64-Bit Server VM 17.0.20.1+1 (?) | stack rlimit unlimited | LD_PRELOAD=- | DYLD_INSERT_LIBRARIES=-
+2026-09-07T15:39:20.2246871Z    launcher: PIE (ET_DYN)
+2026-09-07T15:39:20.2247367Z    brk heap at 0x55bc5470f000, this agent mapped at 0x14fdf70e33d3, a stack var at 0x14fdf59130b0
+2026-09-07T15:39:20.2247973Z    ids: 202016 from 17 threads, min 0x14fd080118b0 max 0x55bc547001a8
+2026-09-07T15:39:20.2248589Z    low 3 bits: 0:202016 1:0 2:0 3:0 4:0 5:0 6:0 7:0
+2026-09-07T15:39:20.2248982Z    bit47 set: 0  bit46 set: 12927  bit40 set: 12927
+2026-09-07T15:39:20.2249454Z    regions: brk-heap 12927, anon-mmap 189089, file 0, stack 0, other 0, no-mapping 0
+2026-09-07T15:39:20.2250121Z    thread 2492: 11248 ids, brk 8 anon 11240 other 0, bit47 set 0, first 0x14fdf0000c20 last 0x55bc544087d8
+2026-09-07T15:39:20.2251148Z    thread 2515: 12719 ids, brk 382 anon 12337 other 0, bit47 set 0, first 0x14fd0801f290 last 0x55bc546f4d78
+2026-09-07T15:39:20.2252049Z    thread 2516: 12478 ids, brk 151 anon 12327 other 0, bit47 set 0, first 0x14fd080223c8 last 0x55bc546fe148
+2026-09-07T15:39:20.2252982Z    thread 2517: 11968 ids, brk 259 anon 11709 other 0, bit47 set 0, first 0x14fd08015478 last 0x55bc546f4c28
+2026-09-07T15:39:20.2253740Z    thread 2518: 12446 ids, brk 170 anon 12276 other 0, bit47 set 0, first 0x14fd08011ae8 last 0x55bc546feec8
+2026-09-07T15:39:20.2254746Z    thread 2519: 11845 ids, brk 152 anon 11693 other 0, bit47 set 0, first 0x14fd080297a8 last 0x55bc546eab38
+2026-09-07T15:39:20.2255515Z    thread 2520: 11409 ids, brk 256 anon 11153 other 0, bit47 set 0, first 0x14fd080213c0 last 0x55bc546f9258
+2026-09-07T15:39:20.2256270Z    thread 2521: 12984 ids, brk 246 anon 12738 other 0, bit47 set 0, first 0x14fd08080460 last 0x55bc546fa938
+2026-09-07T15:39:20.2257022Z    thread 2522: 12614 ids, brk 232 anon 12382 other 0, bit47 set 0, first 0x14fd080118b0 last 0x55bc546ff868
+2026-09-07T15:39:20.2257795Z    thread 2523: 12433 ids, brk 9638 anon 2795 other 0, bit47 set 0, first 0x14fd08016308 last 0x55bc547001a8
+2026-09-07T15:39:20.2258556Z    thread 2524: 11376 ids, brk 235 anon 11141 other 0, bit47 set 0, first 0x14fd08012210 last 0x55bc546fa678
+2026-09-07T15:39:20.2259318Z    thread 2525: 12252 ids, brk 216 anon 12036 other 0, bit47 set 0, first 0x14fd080260c8 last 0x55bc546ffb98
+2026-09-07T15:39:20.2266308Z --- LD_PRELOAD=libjemalloc.so.2
+2026-09-07T15:39:22.1780871Z == probe: Linux x86_64 | OpenJDK 64-Bit Server VM 17.0.20.1+1 (?) | stack rlimit limited | LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libjemalloc.so.2 | DYLD_INSERT_LIBRARIES=-
+2026-09-07T15:39:22.1781976Z    launcher: PIE (ET_DYN)
+2026-09-07T15:39:22.1782472Z    brk heap at 0x55bea754a000, this agent mapped at 0x7f64506503d3, a stack var at 0x7f64501fb670
+2026-09-07T15:39:22.1783344Z    ids: 202016 from 17 threads, min 0x7f63d4900500 max 0x7f644f7fef48
+2026-09-07T15:39:22.1783964Z    low 3 bits: 0:202016 1:0 2:0 3:0 4:0 5:0 6:0 7:0
+2026-09-07T15:39:22.1784756Z    bit47 set: 0  bit46 set: 202016  bit40 set: 202016
+2026-09-07T15:39:22.1785511Z    regions: brk-heap 0, anon-mmap 202016, file 0, stack 0, other 0, no-mapping 0
+2026-09-07T15:39:22.1786532Z    thread 2540: 11248 ids, brk 0 anon 11248 other 0, bit47 set 0, first 0x7f64288ae000 last 0x7f644dbfb778
+2026-09-07T15:39:22.1787616Z    thread 2563: 12851 ids, brk 0 anon 12851 other 0, bit47 set 0, first 0x7f63d490e148 last 0x7f644f7b94e0
+2026-09-07T15:39:22.1788716Z    thread 2564: 11142 ids, brk 0 anon 11142 other 0, bit47 set 0, first 0x7f63d9081040 last 0x7f644dbd5088
+2026-09-07T15:39:22.1789838Z    thread 2565: 10696 ids, brk 0 anon 10696 other 0, bit47 set 0, first 0x7f63d90814f0 last 0x7f644da1fdb8
+2026-09-07T15:39:22.1790851Z    thread 2566: 12713 ids, brk 0 anon 12713 other 0, bit47 set 0, first 0x7f63d490ec60 last 0x7f644f7f6af8
+2026-09-07T15:39:22.1791838Z    thread 2567: 11697 ids, brk 0 anon 11697 other 0, bit47 set 0, first 0x7f63d490e358 last 0x7f644f7be290
+2026-09-07T15:39:22.1792503Z    thread 2568: 13039 ids, brk 0 anon 13039 other 0, bit47 set 0, first 0x7f63d490e578 last 0x7f644f7c2a68
+2026-09-07T15:39:22.1793121Z    thread 2569: 11892 ids, brk 0 anon 11892 other 0, bit47 set 0, first 0x7f63d9081e20 last 0x7f644f7f65f8
+2026-09-07T15:39:22.1793729Z    thread 2570: 11352 ids, brk 0 anon 11352 other 0, bit47 set 0, first 0x7f63d490e770 last 0x7f644f7be3d0
+2026-09-07T15:39:22.1794613Z    thread 2571: 11838 ids, brk 0 anon 11838 other 0, bit47 set 0, first 0x7f63d490e5e0 last 0x7f644f7fef48
+2026-09-07T15:39:22.1795774Z    thread 2572: 12876 ids, brk 0 anon 12876 other 0, bit47 set 0, first 0x7f63d90810f8 last 0x7f644f7f6ae8
+2026-09-07T15:39:22.1796842Z    thread 2573: 12049 ids, brk 0 anon 12049 other 0, bit47 set 0, first 0x7f63d490ebf8 last 0x7f644f7c4050
+2026-09-07T15:39:22.1804928Z --- LD_PRELOAD=libtcmalloc.so.4
+2026-09-07T15:39:24.0712313Z == probe: Linux x86_64 | OpenJDK 64-Bit Server VM 17.0.20.1+1 (?) | stack rlimit limited | LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so.4 | DYLD_INSERT_LIBRARIES=-
+2026-09-07T15:39:24.0713618Z    launcher: PIE (ET_DYN)
+2026-09-07T15:39:24.0714736Z    brk heap at 0x56450574c000, this agent mapped at 0x7fded906b3d3, a stack var at 0x7fded8dfc030
+2026-09-07T15:39:24.0715618Z    ids: 202016 from 17 threads, min 0x564500ede1e0 max 0x564505749f38
+2026-09-07T15:39:24.0716213Z    low 3 bits: 0:202016 1:0 2:0 3:0 4:0 5:0 6:0 7:0
+2026-09-07T15:39:24.0716858Z    bit47 set: 0  bit46 set: 202016  bit40 set: 0
+2026-09-07T15:39:24.0717697Z    regions: brk-heap 202016, anon-mmap 0, file 0, stack 0, other 0, no-mapping 0
+2026-09-07T15:39:24.0718759Z    thread 2583: 11248 ids, brk 11248 anon 0 other 0, bit47 set 0, first 0x564500ede1e0 last 0x5645056c4ec8
+2026-09-07T15:39:24.0719386Z    thread 2606: 12518 ids, brk 12518 anon 0 other 0, bit47 set 0, first 0x5645019dcdc8 last 0x564505749978
+2026-09-07T15:39:24.0719981Z    thread 2607: 11242 ids, brk 11242 anon 0 other 0, bit47 set 0, first 0x564500eecd00 last 0x564505749738
+2026-09-07T15:39:24.0720621Z    thread 2608: 11017 ids, brk 11017 anon 0 other 0, bit47 set 0, first 0x5645019dcdd0 last 0x564505749a68
+2026-09-07T15:39:24.0721234Z    thread 2609: 11474 ids, brk 11474 anon 0 other 0, bit47 set 0, first 0x564501aadc00 last 0x564505748228
+2026-09-07T15:39:24.0721824Z    thread 2610: 12912 ids, brk 12912 anon 0 other 0, bit47 set 0, first 0x5645019df200 last 0x5645057497c8
+2026-09-07T15:39:24.0722418Z    thread 2611: 12595 ids, brk 12595 anon 0 other 0, bit47 set 0, first 0x5645019dd070 last 0x5645057497f8
+2026-09-07T15:39:24.0723003Z    thread 2612: 12011 ids, brk 12011 anon 0 other 0, bit47 set 0, first 0x564501afa180 last 0x564505749238
+2026-09-07T15:39:24.0723600Z    thread 2613: 11560 ids, brk 11560 anon 0 other 0, bit47 set 0, first 0x5645019dcd98 last 0x564505749bf8
+2026-09-07T15:39:24.0724206Z    thread 2614: 10674 ids, brk 10674 anon 0 other 0, bit47 set 0, first 0x564501ae6210 last 0x5645057493f8
+2026-09-07T15:39:24.0725227Z    thread 2615: 11751 ids, brk 11751 anon 0 other 0, bit47 set 0, first 0x564500f4acf8 last 0x564505749870
+2026-09-07T15:39:24.0725843Z    thread 2616: 11860 ids, brk 11860 anon 0 other 0, bit47 set 0, first 0x564500f4acc0 last 0x564505749b70
+2026-09-07T15:39:24.0731502Z --- LD_PRELOAD=libmimalloc.so.2
+2026-09-07T15:39:26.1239537Z == probe: Linux x86_64 | OpenJDK 64-Bit Server VM 17.0.20.1+1 (?) | stack rlimit limited | LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libmimalloc.so.2 | DYLD_INSERT_LIBRARIES=-
+2026-09-07T15:39:26.1240821Z    launcher: PIE (ET_DYN)
+2026-09-07T15:39:26.1241539Z    brk heap at 0x557a10385000, this agent mapped at 0x7fbf08c4f3d3, a stack var at 0x7fbf075130b0
+2026-09-07T15:39:26.1242443Z    ids: 202016 from 17 threads, min 0x288120115e0 max 0x2885e404278
+2026-09-07T15:39:26.1243029Z    low 3 bits: 0:202016 1:0 2:0 3:0 4:0 5:0 6:0 7:0
+2026-09-07T15:39:26.1243442Z    bit47 set: 0  bit46 set: 0  bit40 set: 0
+2026-09-07T15:39:26.1243948Z    regions: brk-heap 0, anon-mmap 202016, file 0, stack 0, other 0, no-mapping 0
+2026-09-07T15:39:26.1244886Z    thread 2627: 11248 ids, brk 0 anon 11248 other 0, bit47 set 0, first 0x288120115e0 last 0x28812f93e68
+2026-09-07T15:39:26.1245586Z    thread 2650: 12625 ids, brk 0 anon 12625 other 0, bit47 set 0, first 0x288400203c0 last 0x2885e401338
+2026-09-07T15:39:26.1246260Z    thread 2651: 10992 ids, brk 0 anon 10992 other 0, bit47 set 0, first 0x28840091a48 last 0x2885e403b28
+2026-09-07T15:39:26.1246923Z    thread 2652: 12278 ids, brk 0 anon 12278 other 0, bit47 set 0, first 0x28840091328 last 0x2885e404278
+2026-09-07T15:39:26.1247583Z    thread 2653: 14160 ids, brk 0 anon 14160 other 0, bit47 set 0, first 0x28840091668 last 0x2885e402038
+2026-09-07T15:39:26.1248241Z    thread 2654: 12290 ids, brk 0 anon 12290 other 0, bit47 set 0, first 0x28840026220 last 0x2885e403f78
+2026-09-07T15:39:26.1248907Z    thread 2655: 10618 ids, brk 0 anon 10618 other 0, bit47 set 0, first 0x28840091458 last 0x2885e4040b8
+2026-09-07T15:39:26.1249572Z    thread 2656: 12009 ids, brk 0 anon 12009 other 0, bit47 set 0, first 0x28840099110 last 0x2885e403ef8
+2026-09-07T15:39:26.1250472Z    thread 2657: 11414 ids, brk 0 anon 11414 other 0, bit47 set 0, first 0x28840091b60 last 0x2885e403938
+2026-09-07T15:39:26.1251256Z    thread 2658: 11256 ids, brk 0 anon 11256 other 0, bit47 set 0, first 0x2884006e198 last 0x2885e4038b0
+2026-09-07T15:39:26.1251914Z    thread 2659: 12710 ids, brk 0 anon 12710 other 0, bit47 set 0, first 0x28840091290 last 0x2885e4038b8
+2026-09-07T15:39:26.1252572Z    thread 2660: 10838 ids, brk 0 anon 10838 other 0, bit47 set 0, first 0x2881206d1b0 last 0x2885e402478
+2026-09-07T15:39:26.1256797Z --- LD_PRELOAD=libmimalloc.so.2.1
+2026-09-07T15:39:27.9728758Z == probe: Linux x86_64 | OpenJDK 64-Bit Server VM 17.0.20.1+1 (?) | stack rlimit limited | LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libmimalloc.so.2.1 | DYLD_INSERT_LIBRARIES=-
+2026-09-07T15:39:27.9729794Z    launcher: PIE (ET_DYN)
+2026-09-07T15:39:27.9730390Z    brk heap at 0x55809bf20000, this agent mapped at 0x7fec1fb1e3d3, a stack var at 0x7fec1e3fc0b0
+2026-09-07T15:39:27.9731098Z    ids: 202016 from 17 threads, min 0x285880115e0 max 0x285d6780d50
+2026-09-07T15:39:27.9731670Z    low 3 bits: 0:202016 1:0 2:0 3:0 4:0 5:0 6:0 7:0
+2026-09-07T15:39:27.9732174Z    bit47 set: 0  bit46 set: 0  bit40 set: 0
+2026-09-07T15:39:27.9732817Z    regions: brk-heap 0, anon-mmap 202016, file 0, stack 0, other 0, no-mapping 0
+2026-09-07T15:39:27.9733864Z    thread 2671: 11248 ids, brk 0 anon 11248 other 0, bit47 set 0, first 0x285880115e0 last 0x28588f93e68
+2026-09-07T15:39:27.9735263Z    thread 2695: 13217 ids, brk 0 anon 13217 other 0, bit47 set 0, first 0x2858806d1b0 last 0x285d6298038
+2026-09-07T15:39:27.9736003Z    thread 2696: 10958 ids, brk 0 anon 10958 other 0, bit47 set 0, first 0x285b8039d50 last 0x285d6298278
+2026-09-07T15:39:27.9736699Z    thread 2697: 13078 ids, brk 0 anon 13078 other 0, bit47 set 0, first 0x285b8026930 last 0x285d6299510
+2026-09-07T15:39:27.9737385Z    thread 2698: 11530 ids, brk 0 anon 11530 other 0, bit47 set 0, first 0x285b8023b60 last 0x285d629c3b8
+2026-09-07T15:39:27.9738539Z    thread 2699: 10869 ids, brk 0 anon 10869 other 0, bit47 set 0, first 0x285b8029ba0 last 0x285d629c968
+2026-09-07T15:39:27.9739562Z    thread 2700: 12406 ids, brk 0 anon 12406 other 0, bit47 set 0, first 0x285b80900e8 last 0x285d629c438
+2026-09-07T15:39:27.9740347Z    thread 2701: 13174 ids, brk 0 anon 13174 other 0, bit47 set 0, first 0x285b8091658 last 0x285d6299538
+2026-09-07T15:39:27.9740947Z    thread 2702: 10785 ids, brk 0 anon 10785 other 0, bit47 set 0, first 0x285b8090f98 last 0x285d629ca78
+2026-09-07T15:39:27.9741527Z    thread 2703: 13269 ids, brk 0 anon 13269 other 0, bit47 set 0, first 0x285b8039d20 last 0x285d629c5b8
+2026-09-07T15:39:27.9742100Z    thread 2704: 11467 ids, brk 0 anon 11467 other 0, bit47 set 0, first 0x285b8090e20 last 0x285d629c738
+2026-09-07T15:39:27.9742677Z    thread 2705: 13482 ids, brk 0 anon 13482 other 0, bit47 set 0, first 0x285b80912c8 last 0x285d629ca38

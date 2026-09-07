@@ -1,0 +1,20 @@
+2026-09-07T15:39:17.8069030Z ### Darwin arm64, openjdk version "21.0.12.1" 2026-08-18 LTS
+2026-09-07T15:39:17.8180020Z    launcher (file): Mach-O 64-bit executable arm64
+2026-09-07T15:39:17.8181260Z --- default
+2026-09-07T15:39:21.1363090Z == probe: Darwin arm64 | OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS (?) | stack rlimit limited | LD_PRELOAD=- | DYLD_INSERT_LIBRARIES=-
+2026-09-07T15:39:21.1376280Z    ids: 211531 from 18 threads, min 0x1261053b0 max 0x600003f7ddf0
+2026-09-07T15:39:21.1394630Z    low 3 bits: 0:211531 1:0 2:0 3:0 4:0 5:0 6:0 7:0
+2026-09-07T15:39:21.1398750Z    bit47 set: 0  bit46 set: 151803  bit40 set: 0
+2026-09-07T15:39:21.1399920Z    regions: brk-heap 0, anon-mmap 0, file 0, stack 0, other 0, no-mapping 211531
+2026-09-07T15:39:21.1401790Z    thread 6438: 11892 ids, brk 0 anon 0 other 11892, bit47 set 0, first 0x138e0bd20 last 0x600003f6def0
+2026-09-07T15:39:21.1441370Z    thread 6456: 48 ids, brk 0 anon 0 other 48, bit47 set 0, first 0x600001669280 last 0x600002d6b070
+2026-09-07T15:39:21.1446410Z    thread 6460: 12762 ids, brk 0 anon 0 other 12762, bit47 set 0, first 0x1261409e0 last 0x600003f64ff0
+2026-09-07T15:39:21.1447490Z    thread 6461: 11962 ids, brk 0 anon 0 other 11962, bit47 set 0, first 0x12613c6c0 last 0x600003f5f0f8
+2026-09-07T15:39:21.1448240Z    thread 6462: 12707 ids, brk 0 anon 0 other 12707, bit47 set 0, first 0x126134460 last 0x600003f5eaf0
+2026-09-07T15:39:21.1449080Z    thread 6463: 12258 ids, brk 0 anon 0 other 12258, bit47 set 0, first 0x126117ff0 last 0x600003f688f0
+2026-09-07T15:39:21.1449830Z    thread 6464: 10459 ids, brk 0 anon 0 other 10459, bit47 set 0, first 0x126118950 last 0x600003cec3b8
+2026-09-07T15:39:21.1450580Z    thread 6465: 12958 ids, brk 0 anon 0 other 12958, bit47 set 0, first 0x12613d960 last 0x600003f64cf0
+2026-09-07T15:39:21.1451170Z    thread 6466: 11389 ids, brk 0 anon 0 other 11389, bit47 set 0, first 0x126135370 last 0x600003f5eff8
+2026-09-07T15:39:21.1451800Z    thread 6467: 12083 ids, brk 0 anon 0 other 12083, bit47 set 0, first 0x12612eda0 last 0x600003f540f8
+2026-09-07T15:39:21.1452560Z    thread 6468: 12546 ids, brk 0 anon 0 other 12546, bit47 set 0, first 0x126149da0 last 0x600003f7ddf0
+2026-09-07T15:39:21.1453150Z    thread 6469: 12824 ids, brk 0 anon 0 other 12824, bit47 set 0, first 0x126135d60 last 0x600003f7bff0
